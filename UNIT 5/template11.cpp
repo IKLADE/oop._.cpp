@@ -16,15 +16,15 @@ class A
         num1=x;
         num2=y;
     }
-  void display(T& p);  
+  void display(T &p);  
     
 }; 
-template <typename T> void A<T>::display(T &p)
+template <typename T> 
+void A<T>::display(T &p)
 {  
        cout << "Addition of num1 and num2 : " << num1+num2<<endl; 
-       cout<<p<<endl;
-         
-  }   
+       cout<<p<<endl;     
+}   
   
 int main()  
 {  

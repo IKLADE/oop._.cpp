@@ -18,14 +18,23 @@ int main()
   base B;
   dc D;
   base *bptr;
-  cout<<"\n bptr points to Base\n";
+  dc *dptr;
    bptr=&B;
    bptr->display();//base class
    bptr->show();//base class
-   cout<<"\n bptr points to derieved\n";
+
    bptr=&D;
    bptr->display();//base class
    bptr->show();//derieved class
+
+   dptr=&D;
+   dptr->display();//derived
+   dptr->show(); //derived
+
+   // dptr=&B; //invalid
+   // dptr->display();
+   // dptr->show(); 
+
  }
 
  

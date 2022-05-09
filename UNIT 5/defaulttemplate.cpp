@@ -1,7 +1,7 @@
 #include<iostream> 
 using namespace std; 
   
-template<class T, class U = char> void function(T x,U y)
+template<class T, class U = char> void function(T x,U y='c')
 {
   cout<<x<<y;
 }
@@ -9,7 +9,7 @@ template<class T, class U = char> void function(T x,U y)
   
 int main() 
 { 
-    function(4,5);
-     function(4);
+    function<int,int>(4,5);
+     function<int>(4);
     return 0; 
 } 

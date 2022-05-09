@@ -11,7 +11,7 @@ int main()
 {
   ex e;
   int x=9;
-  e.function(x);
+  e.function<int>(x);
   float f=5.5;
-  e.function(f);
+  e.function<float>(f);
 }

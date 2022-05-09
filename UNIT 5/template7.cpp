@@ -3,9 +3,9 @@ using namespace std;
 template<class T>  
 class A   
 {  
-    public:  
     T num1 ;  
     T num2 ;
+    public:  
     A()
     {
         num1=0;
@@ -31,6 +31,6 @@ int main()
     A<int> d2(13,15);
     d1.add();
     d2.add();
-      return 0;  
+    return 0;  
 }  
 

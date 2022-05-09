@@ -6,7 +6,7 @@ class Abase //base class
   public:
    void read()
    {
-     cout<<"enter the value of x\n";
+      cout<<"enter the value of x\n";
       cin>>x;
    }
    void display()

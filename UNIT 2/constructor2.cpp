@@ -10,6 +10,10 @@ class A
                      
                      cout << "\n Constructor of class A  is invoked" ;
                 }
+                ~A()
+                {
+                        cout<<"destructor A"<<endl;
+                }
                               
                 
 };
@@ -19,7 +23,7 @@ class B : public A
         protected:
                 int y ;
         public:
-                B( ) : A( )  
+                B( ) 
                 {
                        y=0;
                         cout << "\n Constructor of class B without any argument is invoked" ;
@@ -29,6 +33,10 @@ class B : public A
                 {
                  y=X;                       
                 cout << "\n Constructor of class B  is invoked" ;
+                }
+                ~B()
+                {
+                        cout<<"destructor B"<<endl;
                 }
               void displayy()
                 { cout << "\n\t y= " << y ; }
@@ -46,6 +54,10 @@ class C : public B
                 C(int X):B(X)
                {               
                        cout << "\n Constructor of class C  is invoked" ;
+                }
+                ~C()
+                {
+                        cout<<"destructor C"<<endl;
                 }
                
               

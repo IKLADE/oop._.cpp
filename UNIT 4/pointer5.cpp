@@ -10,7 +10,7 @@ class city
    city()
    {
       len=0;
-      name= new char[len +1];
+      name= new char[len];
     }
   void getname()
   {
@@ -19,7 +19,7 @@ class city
     cout<<"enter the city name \t:";
     cin>>s;
     len= strlen(s);
-    name= new char[len+1];
+    name= new char[len];
     strcpy(name,s);
    }
   void printname()

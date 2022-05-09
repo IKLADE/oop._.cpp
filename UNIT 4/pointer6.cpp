@@ -5,11 +5,11 @@ class person{
  char name[20];
  float age;
  public:
-   person(char *s,float a)
-   {
+ person(char *s,float a)
+ {
     strcpy(name,s);
     age=a;
-   }
+ }
  person &greater(person x)  
  {
    if(x.age>=age)

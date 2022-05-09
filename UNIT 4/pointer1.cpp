@@ -1,10 +1,11 @@
 #include<iostream>
 using namespace std;
+
 int main()
 {
   int arr[10]={1,99,4,37,88,3,19,45,62,87};
 
-  int i,num,*ptr;  //stntax for pointer char *ptr  
+  int i ,num ,*ptr;  //stntax for pointer char *ptr  
   int flag=0;     
 
   ptr=arr;//base address or ptr= &arr[0];    arr{1}  & address

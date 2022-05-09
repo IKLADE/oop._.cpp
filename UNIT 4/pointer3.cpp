@@ -1,6 +1,6 @@
 #include <iostream>  
 using namespace std; 
-int func(int a,int b,char c){cout<<a;} 
+void func(int a,int b,char c){cout<<a;} 
 int add(int a , int b)  
 {  
   return a+b;  

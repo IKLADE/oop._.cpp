@@ -30,11 +30,11 @@ class ClassA
   
               ClassD obj; 
   
-              obj.a = 10;                   //Statement 1, Error 
-             obj.a = 100;                 //Statement 2, Error 
+             //  obj.a = 10;                   //Statement 1, Error 
+             // obj.a = 100;                 //Statement 2, Error 
   
-           //   obj.ClassB::a = 10;        //Statement 3 
-          //    obj.ClassC::a = 100;      //Statement 4 
+             obj.ClassB::a = 100;        //Statement 3 
+             obj.ClassC::a = 10;      //Statement 4 
   
               obj.b = 20; 
               obj.c = 30; 

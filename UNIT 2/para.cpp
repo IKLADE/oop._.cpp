@@ -41,7 +41,7 @@ int main()
  int a,b;
  cout<<"enter the values of a and b\n";
  cin>>a>>b;
- ex e5(a,b);//dynamic initilization of values
+ ex e5(a,b);
  e5.display(); 
 }
  
